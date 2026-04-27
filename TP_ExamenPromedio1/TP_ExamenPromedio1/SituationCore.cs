@@ -11,16 +11,16 @@ namespace TP_ExamenPromedio1
     {
         public string id;
         public string description;
-        public List<Option> options;
+        public List<OptionCore> options;
 
         public SituationCore(string id,  string description)
         {
             this.id = id;
             this.description = description;
-            options = new List<Option>(); 
+            options = new List<OptionCore>(); 
         }
 
-        public virtual void Execute(Player player)
+        public virtual void Execute(PlayerCore player)
         {
             Console.WriteLine(description);
         }

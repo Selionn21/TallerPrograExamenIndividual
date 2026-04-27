@@ -10,7 +10,7 @@ namespace TP_ExamenPromedio1
     {
 
         public PlayerCore player;
-        public List<Situation> allSituations;
+        public List<SituationCore> allSituations;
         public string currentId;
 
         public void Start()
@@ -41,9 +41,9 @@ namespace TP_ExamenPromedio1
 
             while(player.health > 0)
             {
-                Situation current = GetSituation(currentId);
+                SituationCore current = GetSituation(currentId);
 
-                current.Execute(Player);
+                current.Execute(player);
 
                 if (current is FinalSituation)
                     break;
@@ -67,7 +67,7 @@ namespace TP_ExamenPromedio1
 
         }
 
-        private Situation GetSituation()
+        private SituationCore GetSituation(string id)
         {
             for(int i = 0; i < allSituations.Count; i++)
             {
@@ -82,7 +82,7 @@ namespace TP_ExamenPromedio1
 
         private void ShowEnding()
         {
-            Situation current = GetSituation(currentId);
+            SituationCore current = GetSituation(currentId);
 
             if(player.health <= 0)
             {
