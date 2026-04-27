@@ -9,7 +9,7 @@ namespace TP_ExamenPromedio1
     internal class TextSituation : SituationCore
     {
 
-        public TextSituation(string description) : base(description)
+        public TextSituation(string id, string description) : base(id, description)
         {
 
         }

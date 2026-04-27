@@ -9,12 +9,13 @@ namespace TP_ExamenPromedio1
 {
     internal class SituationCore
     {
-
+        public string id;
         public string description;
         public List<Option> options;
 
-        public Situation(string description)
+        public SituationCore(string id,  string description)
         {
+            this.id = id;
             this.description = description;
             options = new List<Option>(); 
         }

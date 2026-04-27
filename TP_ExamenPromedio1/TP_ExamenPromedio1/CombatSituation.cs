@@ -12,7 +12,7 @@ namespace TP_ExamenPromedio1
 
         public int damage;
 
-        public CombatSituation(string description, int damage) : base(description)
+        public CombatSituation(string id, string description, int damage) : base(id, description)
         {
             this.damage = damage;
         }

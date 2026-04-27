@@ -11,7 +11,7 @@ namespace TP_ExamenPromedio1
 
         public string ending;
 
-        public FinalSituation(string description, string ending) : base(description)
+        public FinalSituation(string id, string description, string ending) : base(id, description)
         {
             this.ending = ending;
         }
