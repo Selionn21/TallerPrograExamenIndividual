@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CombatSituation.cs" />
+    <Compile Include="FinalSituation.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="OptionCore.cs" />
+    <Compile Include="PlayerCore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SituationCore.cs" />
+    <Compile Include="TextSituation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

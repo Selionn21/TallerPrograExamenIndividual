@@ -1,0 +1,2 @@
+D:\TULUS\TercerCiclo\Taller\Programación\Programación_Sebas\TallerPrograExamenIndividual\TP_ExamenPromedio1\TP_ExamenPromedio1\obj\Debug\TP_ExamenPromedio1.csproj.AssemblyReference.cache
+D:\TULUS\TercerCiclo\Taller\Programación\Programación_Sebas\TallerPrograExamenIndividual\TP_ExamenPromedio1\TP_ExamenPromedio1\obj\Debug\TP_ExamenPromedio1.csproj.CoreCompileInputs.cache

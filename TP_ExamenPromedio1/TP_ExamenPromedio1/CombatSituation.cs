@@ -17,7 +17,7 @@ namespace TP_ExamenPromedio1
             this.damage = damage;
         }
 
-        public override void Execute(Player player)
+        public override void Execute(PlayerCore player)
         {
             Console.WriteLine(description);
             player.health -= damage;
