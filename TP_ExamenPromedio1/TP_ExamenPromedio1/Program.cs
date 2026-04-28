@@ -51,15 +51,15 @@ namespace TP_ExamenPromedio1
             list.Add(neutralEnding);
             list.Add(badEnding);
 
-            room.options.Add(new OptionCore("Decides investigar el sonido esperanzado en que solo es la hierba o algún conejo rondandote", -25, "monster"));
-            room.options.Add(new OptionCore("Te mueves silenciosamente lejos de tu ubicación en busca de un mejor refugio, algo más.... seguro", -10, "monster"));
+            room.options.Add(new OptionCore("Decides investigar el sonido esperanzado en que solo es la hierba o algún conejo rondandote (pierdes 25 de vida)", -25, "monster"));
+            room.options.Add(new OptionCore("Te mueves silenciosamente lejos de tu ubicación en busca de un mejor refugio, algo más.... seguro (pierdes 10 de vida)", -10, "monster"));
 
-            monster.options.Add(new OptionCore("Echas a correr lo más rápido que puedes, pero te tropiezas y caes al suelo, clavandote la rodilla con una madera", -15, "end"));
-            monster.options.Add(new OptionCore("Enfrentas al monstruo para intentar dañarlo y ganar más tiempo para escapar", -30, "end"));
+            monster.options.Add(new OptionCore("Echas a correr lo más rápido que puedes, pero te tropiezas y caes al suelo, clavandote la rodilla con una madera (pierdes 15 de vida)", -15, "end"));
+            monster.options.Add(new OptionCore("Enfrentas al monstruo para intentar dañarlo y ganar más tiempo para escapar (pierdes 30 de vida)", -30, "end"));
 
             end.options.Add(new OptionCore("Aprietas el botón de la izquierda (Abrir la puerta)", 0, "goodEnding"));
-            end.options.Add(new OptionCore("Aprietas el botón del centro (Despliegas la trampa, pero el monstruo logra atacarte)", -25, "neutralEnding"));
-            end.options.Add(new OptionCore("Aprietas el botón de la derecha (No pasa nada y el monstruo te atraviesa", -100, "badEnding"));
+            end.options.Add(new OptionCore("Aprietas el botón del centro (Despliegas la trampa, pero el monstruo logra atacarte, pierdes 25 de vida)", -25, "neutralEnding"));
+            end.options.Add(new OptionCore("Aprietas el botón de la derecha (No pasa nada y el monstruo te atraviesa, pierdes 100 de vida)", -100, "badEnding"));
 
 
             return list;
